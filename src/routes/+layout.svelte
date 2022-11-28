@@ -1,6 +1,6 @@
 <script>
 	import favicon from '../assets/images/favicon.ico';
-	import Background from '../components/Background.svelte';
+	import Background from '../components/Background/Background.svelte';
 	import Header from '../components/General/Header.svelte';
 	import Footer from '../components/General/Footer.svelte';
 	import './global.css';

@@ -1,5 +1,8 @@
 <script>
 	import { page } from '$app/stores';
+	import randomBackground from '../Background/Background.js';
+
+	let func = randomBackground; 
 </script>
 
 <header>
