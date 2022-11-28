@@ -1,6 +1,7 @@
 <script>
-    
-    export let image = "../images/1.png";
+    import debugImage from '../assets/images/1.png';
+
+    export let image = debugImage;
 
 </script>
 
