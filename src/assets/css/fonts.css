@@ -1,7 +1,4 @@
-@import '@fontsource/fira-mono';
-* {
-    outline: 1px solid lime;
-}
+/* @import '@fontsource/fira-mono'; */
 
 @font-face {
     /**estencil para titulo tiniebla*/
@@ -50,17 +47,3 @@
     font-weight: normal;
     font-style: normal;
 }
-
-:root {
-    /* fonts */
-    --font-primary: 'heavy_dataregular' sans-serif;
-    --font-secondary: 'droidregular';
-    --font-terciary: 'distro_batsregular';
-    --font-complementary: 'stencil_gothicregular';
-    --font-cool: 'hvd_peaceregular';
-    /* colors */
-    /* sizes */
-    /* general */
-}
-
-a {}

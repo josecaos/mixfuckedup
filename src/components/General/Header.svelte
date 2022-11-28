@@ -1,14 +1,13 @@
 <script>
 	import { page } from '$app/stores';
-	import logo from '$lib/images/svelte-logo.svg';
 </script>
 
 <header>
-	<div class="logo">
+	<!-- <div class="logo">
 		<a href="/">
 			<img src={logo} alt="mixfuckedup" />
 		</a>
-	</div>
+	</div> -->
 
 	<nav>
 
@@ -28,5 +27,12 @@
 </header>
 
 <style>
+	header  {
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		z-index: 10;
+	}
 
 </style>
