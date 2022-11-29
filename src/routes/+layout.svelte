@@ -8,7 +8,7 @@
 
 <svelte:head>
 	<title>Mixfuckedup</title>
-	<meta name="description" content="Sitio ....." />
+	<meta name="description" content="Sitio ..." />
 	<!--  -->
 	<link rel="icon" type="image/ico" href={favicon} />
 </svelte:head>
