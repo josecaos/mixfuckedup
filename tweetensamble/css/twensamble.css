@@ -1,0 +1,69 @@
+/* 
+    Created on : May 5, 2015, 11:45:28 PM
+    Author     : @joseCao5
+    for        ; livecodenetensamble
+*/
+* {
+    margin: 0;
+    padding: 0;
+}
+/**/
+@font-face {
+    font-family: 'z_aristaregular';
+    src: url('../fonts/arista-webfont.eot');
+    src: url('../fonts/arista-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/arista-webfont.woff2') format('woff2'),
+         url('../fonts/arista-webfont.woff') format('woff'),
+         url('../fonts/arista-webfont.ttf') format('truetype'),
+         url('../fonts/arista-webfont.svg#z_aristaregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+body {
+    background: #0A9DCE;
+}
+/*index*/
+.txtitulo {
+    font-family: 'z_aristaregular';
+    font-weight: lighter;
+    font-size: 3em;
+    text-align: center;
+    padding: 0 50px;
+}
+.txtsubheader {
+    font-family: 'z_aristaregular';
+    font-weight: lighter;
+    font-size: 2em;
+    text-align: center;
+    padding: 0 50px;
+}
+.txtsubheader a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+.txtensamble {
+    font-family: 'Sans', Helvetica;
+    text-align: center;
+    padding: 0 50px;
+}
+.txtensamble a {
+    text-decoration: none;
+    color: whitesmoke;
+}
+.txtwhat {
+    font-family: 'Sans', Helvetica;
+    text-align: center;
+    padding: 0 50px;
+}
+.txtwhat a {
+    text-decoration: none;
+    color: whitesmoke;
+}
+.botonLogin {
+    display: block;
+    margin: 30px auto;
+    height: 30px;
+    width: 200px;
+    
+}

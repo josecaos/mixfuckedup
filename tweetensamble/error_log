@@ -1,0 +1,2 @@
+[16-Mar-2016 19:51:51 UTC] PHP Warning:  curl_exec() has been disabled for security reasons in /home/mixfucke/public_html/tweetensamble/inc/twitteroauth.php on line 225
+[16-Mar-2016 19:52:04 UTC] PHP Warning:  curl_exec() has been disabled for security reasons in /home/mixfucke/public_html/tweetensamble/inc/twitteroauth.php on line 225

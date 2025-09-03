@@ -1,0 +1,72 @@
+/**/
+@media (max-width:1024px) {
+/**/
+    .menuProyectos li {
+        width: 16.40%;
+    }
+    .menuProyectos li a {
+        font-size: 1.4em;
+    }
+}
+/**/
+.hablaWidget {
+    font-size: 1.2em;
+}
+@media (max-width:720px) {
+/**/
+    .menuProyectos li {
+        width: 16.20%;
+    }
+    .menuProyectos li a {
+        font-size: 1.2em;
+    }    
+}
+/**/
+.hablaWidget {
+    font-size: 1em;
+}
+@media (max-width:480px) {
+/**/
+    .menuProyectos li {
+        width: 16.10%;
+    }
+    .menuProyectos li a {
+        font-size: 0.9em;
+    }
+/**/
+.hablaWidget {
+    font-size: 1em;
+}    
+}
+@media (max-width:320px) { 
+/**/
+    .menuProyectos li {
+        width: 16.0%;
+    }
+    .menuProyectos li a {
+        font-size: 0.8em;
+    }
+/**/
+.hablaWidget {
+    font-size: 0.8em;
+}    
+}
+/*music player*/
+@media (-webkit-min-device-pixel-ratio: 1.5), (min--moz-device-pixel-ratio: 1.5), (-o-min-device-pixel-ratio: 3/2), (min-resolution: 1.5dppx)  {
+	.ubaplayer-button {
+		background-position: 0px -70px;
+		background-size: 20px 250px;
+	}
+
+	.ubaplayer-button:hover {
+		background-position: 0 -107px;
+	}
+
+	.ubaplayer-button.playing {
+		background-position: 0 -144px;
+	}
+
+	.ubaplayer-button.playing:hover {
+		background-position: 0 -180px;
+	}
+}

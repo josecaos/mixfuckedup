@@ -1,0 +1,5 @@
+EP: TXT u r
+artist: mixfuckedup
+comm: made for www.aleatoryrecord.com
+resources: made with supercollider mastered w/ Audacity on Ubuntu 10.04
+year: 2010
