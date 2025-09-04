@@ -1,6 +1,6 @@
 <?php
 //proyecto ID
-$secc=0;//mxfkdp=0;josecaos=1;lcne=2;tiniebla=3;audiolab=4;weblab=5;
+$secc=0;//mxfkdp=0;josecaos=1;
 require "mixheader.php";
 ?>
 <body>

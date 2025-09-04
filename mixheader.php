@@ -6,10 +6,9 @@ $titulo=["Mixfuckedup","josecaos","LiveCodeNetEnsamble", "Tiniebla"];
 <head>
 	<title><?php echo $titulo[$secc]; ?></title>
 	<meta charset="UTF-8">
-	<meta name="keywords" content="mixfuckedup, bizarrock, musica, music, multimedia, livecoding,
-          algorave, algoraving, tiniebla, coagula, josecaos, livecodenet ensamble, livecodenet">
-	<meta name="description" content="Mixfuckedup es un Laboratorio personal de proyectos dedicados al codigo y multimedia, especializado en sonido. Musica, Sintesis sonora, produccion y postproduccion, desarrollo de aplicaciones, web, mapping, lo que sea, con tal de no dejar de tocar" >
-	<meta name="author" content="@joseCao5" >
+	<meta name="keywords" content="mixfuckedup, bizarrock, música, music, multimedia, livecoding, Algorave, Tiniebla, josecaos, livecodenet ensamble, RipRapRape, Mitote, Morir, Instrumentation">
+	<meta name="description" content="Mixfuckedup es un Laboratorio personal de proyectos dedicados a la música, especializado en síntesis de audio y código, produccion y postproduccion." >
+	<meta name="author" content="Caos" >
     <meta name="viewport" content="width=100%; initial-scale=1;" />
     <link rel="icon" type="image/ico" href="favicon.ico" >
     <!--styles-->
