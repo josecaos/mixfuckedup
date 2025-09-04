@@ -9,7 +9,7 @@ require "mixheader.php";
   <!---->
   <div class="fondo-cont" >
     <canvas id="lienzo" onclick="rompe()"></canvas>
-    <img id="logoMain" class="logoMain" src="img/1.png" style="display: none" alt="">
+    <img id="logoMain" class="logoMain" src="img/7.png" style="display: none" alt="">
     <div id="index" class="fondo">
       <!-- conenido ajax -->
       <div class="contenedorSeccion">

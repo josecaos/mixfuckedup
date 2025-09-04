@@ -1,4 +1,4 @@
-<nav>
+=-<nav>
   <div class="mixmenu">
     <div id="audio"></div>
     <ul class="menuProyectos" >
@@ -15,14 +15,21 @@
       <li id="tiniebla" >
         <a class="linkProyectos" href="https://www.facebook.com/tinieblaband/" target="_blank">Tiniebla</a>
       </li>
-      <!--
-      <li id="audioLab" onclick="alert('proximamente')">
-      <a class="linkProyectos" href="#">AudioLab</a>
-    </li>
-    <li id="webLab" onclick="alert('proximamente')" >
-    <a class="linkProyectos" href="#">WebLab</a>
-  </li>
--->
+      <li id="tiniebla" >
+        <a class="linkProyectos" href="https://www.facebook.com/tinieblaband/" target="_blank">Tiniebla</a>
+      </li>
+      <li id="tiniebla" >
+        <a class="linkProyectos" href="https://www.facebook.com/tinieblaband/" target="_blank">Tiniebla</a>
+      </li>
+      <li id="tiniebla" >
+        <a class="linkProyectos" href="https://www.facebook.com/tinieblaband/" target="_blank">Tiniebla</a>
+      </li>
+      <li id="tiniebla" >
+        <a class="linkProyectos" href="https://www.facebook.com/tinieblaband/" target="_blank">Tiniebla</a>
+      </li>
+      <li id="tiniebla" >
+        <a class="linkProyectos" href="https://www.facebook.com/tinieblaband/" target="_blank">Tiniebla</a>
+      </li>
 
 
 </ul>

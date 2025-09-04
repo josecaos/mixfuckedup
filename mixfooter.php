@@ -14,7 +14,7 @@
           </ul>
         </div>
         <div class="copyright">
-          <h5> Mixfuckedup | Copyright 2017 </h5>
+          <h5> Mixfuckedup | Copyright <?php echo date("Y"); ?> </h5>
         </div>
         <div class="donaciones" onclick="popup()">
           <p>
