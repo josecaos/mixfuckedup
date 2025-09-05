@@ -117,7 +117,7 @@
         position: fixed;
         -webkit-backface-visibility: hidden;
         background: rgba(0, 0, 0, 0.5);
-        height: 20px;
+        height: 2rem;
         top: 0px;
         width: 100%;
         z-index: 200;
@@ -126,7 +126,7 @@
     .menu li {
         border-right: 1px dotted rgba(0, 0, 0, 0.2);
         float: left;
-        height: 39px;
+        height: 100%;
         text-decoration: none;
         list-style: none;
         min-width: 79px;
@@ -163,7 +163,7 @@
         text-align: center;
         font-size: 1.75rem;
         position: relative;
-        height: 2rem;
+        height: 100%;
         width: 100%;
         z-index: 1;
     }
@@ -173,22 +173,21 @@
     }
 
     .menuProyectos li a {
-        display: block;
+        display: flex;
+        justify-content: center;
+        align-items: center;
         font-family: 'heavy_dataregular';
         text-decoration: none;
-        line-height: 26px;
-        text-align: right;
         font-size: 1rem;
-        padding-right: 1%;
-        letter-spacing: 1px;
-        height: 100%
+        padding: 0 0.25rem;
+        letter-spacing: 2px;
+        height: 100%;
+        width: 100%;
     }
 
     .menuProyectos li {
         background: rgba(0, 0, 0, 0.6);
-        display: table-cell;
-        height: 20px;
-        text-align: center;
+        height: 100%;
         border-left: 1px dotted lime;
         float: left;
         vertical-align: bottom;
@@ -503,14 +502,14 @@
         text-align: center;
         right: 0px;
         bottom: 25px;
-        background: rgba(0, 255, 0, 0.25);
-        ;
+        background: rgba(0, 255, 0, 0.5);
         width: 180px;
         padding: 15px;
     }
 
     #popupDonaciones p {
         font-family: sans-serif;
+        color: #020302;
     }
 
     #popupDonaciones img {

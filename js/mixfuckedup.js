@@ -1,7 +1,7 @@
 //scripts para el Sitio V2 de mixfuckedup
 //
 ////////////////////////
-var proyecto = ['MIXFUCKEDUP','JOSECAOS','LiveCodeNetEnsamble','TINIEBLA','AudioLab','Weblab'];
+var proyecto = ['MIXFUCKEDUP','josecaos','Tiniebla','RipRapRape','Menos Humanos','Mitote','Morir','Devilmente','Egohisteria'];
 //var selfurl = window.location.href;
 var array0 = proyecto[0].split("");
 var array1 = proyecto[1].split("");
@@ -9,6 +9,9 @@ var array2 = proyecto[2].split("");
 var array3 = proyecto[3].split("");
 var array4 = proyecto[4].split("");
 var array5 = proyecto[5].split("");
+var array5 = proyecto[6].split("");
+var array5 = proyecto[7].split("");
+var array5 = proyecto[8].split("");
 //randomiza el titulo
   function tituloHeader() {
     var cont = document.getElementById("tituloprincipal");
@@ -33,7 +36,7 @@ var array5 = proyecto[5].split("");
             //hablaProyecto(proyecto[0]);
         },5000);
       }
-    if(secc === 1){//este equivale al docmento de josecaos
+    if(secc === 1){//este equivale al documento de josecaos
         cont.innerHTML = caos;
         hablaProyecto(caos);
         setTimeout(function() {
@@ -249,8 +252,8 @@ function selContenido() {
   }
 //donaciones
     function popup () {
-      $('#popupDonaciones').toggle('slow',function() {
-        $('#popupDonaciones').css("display","block");
+      $('#popupDonaciones').toggle('slow',(s) => {
+        // $('#popupDonaciones').css("display","block");
       });
     }
     function closepop () {
