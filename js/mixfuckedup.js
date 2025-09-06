@@ -133,23 +133,13 @@ function selTitulo() {
 ////// falta
 //selecciona contenido de seccion
 //sirve para accionar cosas propias de cada pagina
-function selContenido() {
+function content_select() {
     var tw,ply,ind,pics;
     if(secc === 0 || secc === null || secc > 5) {//esta var se declara en el doc php raiz
-        var tw = 'html/mix_twitter.html';
         var contenido = 'html/mixfuckedup_info.html';
         //
         $('#mixfuckedup').css({'background':'#0ACD00'});
         $('#mixfuckedup a').css({'color':'#313131'});
-        $.ajax({//twitter
-            url:tw,
-            success: function(data) {
-                $('.item-twitter').html(data);
-            },
-            error: function(xhr) {
-                console.log('errrror, ashole!' + xhr.status + xhr.statusText);
-        }
-        });
         $.ajax({//contenido
             url:contenido,
             success: function(data) {
@@ -253,7 +243,6 @@ function selContenido() {
 //donaciones
     function popup () {
       $('#popupDonaciones').toggle('slow',(s) => {
-        // $('#popupDonaciones').css("display","block");
       });
     }
     function closepop () {
@@ -270,7 +259,7 @@ $(function(){
   };
   //titulos y contenido
   selTitulo();
-  selContenido();
+  content_select();
   //drag titulo principal
   $('.tituloheader').udraggable({
     containment: '.contenedorSeccion'

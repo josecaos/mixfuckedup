@@ -9,11 +9,11 @@ require "mixheader.php";
 ?>
 <body>
 <style type="text/css">
-  <!--
+  /* <!-- */
   #index{
   background: url(img/<?php echo $selectedBg; ?>) no-repeat fixed center center / cover;
   }
-  -->
+  /* --> */
 </style>
 	<div class="fondo-cont" >
         <div id="index" class="fondo">
