@@ -1,4 +1,4 @@
-<div class="contenido contenidoIndex"> <!--  descripcion-->
+<div class="contenido contenidoIndex">
     <div class="contenidoTop">
         <!-- <p><i class="fa fa-arrows-alt"></i></p>&nbsp;<strong class="headerContenido"><?php //echo $titulo[$secc]; ?></strong> -->
         <p><i class="fa fa-arrows-alt"></i></p>&nbsp;<strong class="headerContenido"><?php echo "Info." ?></strong>

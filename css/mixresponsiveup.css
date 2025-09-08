@@ -1,4 +1,7 @@
 @media (min-width:1024px) {
+	    .contenidoIndex {
+        left: 35% !important;
+    }
 }
 @media (min-width:720px) {
 }
@@ -7,7 +10,7 @@
 @media (min-width:320px) { 
 }
 /*music player*/
-@media (-webkit-min-device-pixel-ratio: 1.5), (min--moz-device-pixel-ratio: 1.5), (-o-min-device-pixel-ratio: 3/2), (min-resolution: 1.5dppx)  {
+/* @media (-webkit-min-device-pixel-ratio: 1.5), (min--moz-device-pixel-ratio: 1.5), (-o-min-device-pixel-ratio: 3/2), (min-resolution: 1.5dppx)  {
 	.ubaplayer-button {
 		background-position: 0px -70px;
 		background-size: 20px 250px;
@@ -24,4 +27,4 @@
 	.ubaplayer-button.playing:hover {
 		background-position: 0 -180px;
 	}
-}
+} */

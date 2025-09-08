@@ -2,9 +2,13 @@
     * {
         margin: 0;
         padding: 0;
+        box-sizing: border-box;
+        font-family: 'Jersey 10', Helvetica, Sans !important;
     }
 
-    /*fuentes*/
+    /*fuentesh*/
+    @import url('https://fonts.googleapis.com/css2?family=Jersey+10');
+
     @font-face {
         /**estencil para titulo tiniebla*/
         font-family: 'hvd_peaceregular';
@@ -41,7 +45,7 @@
             url('../fonts/distro-sign/distrobt-webfont.woff2') format('woff2'),
             url('../fonts/distro-sign/distrobt-webfont.woff') format('woff'),
             url('../fonts/distro-sign/distrobt-webfont.ttf') format('truetype'),
-            url('../fonts/distro-sign/distrobt-webfont.svg#distro_batsregular') format('svg');
+            url('../fonts/distro-sign/distrobt-webfont.svg#distro_batsregular') format('svg !important');
         font-weight: normal;
         font-style: normal;
 
@@ -81,6 +85,7 @@
         max-width: 72rem;
         margin: 0 auto;
     }
+
     .fondo-cont {
         height: 100%;
         overflow: hidden;
@@ -186,7 +191,7 @@
     }
 
     .nav {
-        font-family: 'stencil_gothicregular', Helvetica, Sans;
+        /* font-family: 'stencil_gothicregular', Helvetica, Sans; */
         font-size: 0.9em;
         position: fixed;
         background: rgba(0, 0, 0, 0.7);
@@ -243,11 +248,13 @@
     }
 
     .contenidoIndex {
-        top: 8.65rem;
+        display: flex;
+        flex-direction: column;
+        top: 10rem;
         left: 0;
         width: 100%;
-        max-width: 22rem;
-        height: 100%;
+        \width: 22rem;
+        height: fit-content !important;
         max-height: 22rem;
         resize: both;
         overflow: hidden;
@@ -299,14 +306,15 @@
         color: whitesmoke;
         background: rgba(0, 255, 0, 0.25);
         display: none;
-        border-left: 1px dashed rgba(0, 255, 0, 0.25);
-        /*max-height: 540px;*/
-        width: auto;
-        overflow: auto;
+        /* padding: 2rem; */
+
+        /* max-height: 540px; */
+        width: 100%;
+        /* overflow: auto; */
     }
 
     .item-page {
-        overflow: hidden;
+        /* overflow: hidden; */
         text-align: center;
     }
 
@@ -328,9 +336,12 @@
         z-index: 2;
     }
 
+    .contenidoTop strong {
+        padding: 0 1rem;
+    }
     .contenidoTop p {
         color: whitesmoke;
-        font-family: 'distro_batsregular', Helvetica, Sans;
+        font-family: 'distro_batsregular', Helvetica, Sans !important;
         width: 30px;
         float: left;
         line-height: 2.333em;
@@ -401,7 +412,7 @@
         color: #FFF;
         display: block;
         background: rgba(0, 0, 0, 0.5);
-        font-family: 'stencil_gothicregular', Helvetica, Sans;
+        /* font-family: 'stencil_gothicregular', Helvetica, Sans; */
         font-size: 0.8em;
         position: fixed;
         text-align: left;
@@ -414,7 +425,7 @@
         color: #FFF;
         display: block;
         background: rgba(0, 0, 0, 0.1);
-        font-family: 'stencil_gothicregular', Helvetica, Sans;
+        /* font-family: 'stencil_gothicregular', Helvetica, Sans; */
         font-size: 0.8em;
         float: right;
         position: relative;
@@ -524,7 +535,7 @@
         border: none;
         color: lightgray;
         float: left;
-        font-family: 'stencil_gothicregular', Helvetica, Sans;
+        /* font-family: 'stencil_gothicregular', Helvetica, Sans; */
         font-size: 1.5em;
         padding-left: 5px;
         height: 85%;

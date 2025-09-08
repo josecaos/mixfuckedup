@@ -170,7 +170,7 @@ function content_select() {
         //
         $('#liveCodeNetEnsamble').css({'background':'#0ACD00'});
         $('#liveCodeNetEnsamble a').css({'color':'#313131'});
-        $(".contenidoIndex").css('width','90%');
+        // $(".contenidoIndex").css('width','90%');
         $.ajax({
             url: iframe,
             success: function(data) {
@@ -220,12 +220,12 @@ function content_select() {
     var altura = $('.mixfooter').offset();
     var itempage = '.item-' + ventana;
     var resta;
-    if (ventana === 'page') {resta = 110;};
+    // if (ventana === 'page') {resta = 110;};
     if (ventana === 'twitter') {resta = 310;};
     if (ventana === 'radio') {$('.item-radio').css({'height':'100px','opacity':'1'});};
     //
     var alturamaxima = altura.top - resta;
-    $(itempage).css('height',alturamaxima + 'px');
+    // $(itempage).css('height',alturamaxima + 'px');
     $(itempage).slideDown(1000);
     if( itempage === '.item-liveVid') {
       $('.item-page').slideUp(250);
@@ -271,12 +271,12 @@ $(function(){
   // posiciones iniciales
   setTimeout(function() {
     var altura = $('.mixfooter').offset();
-    var itemspage = ['.item-page','.item-twitter','item-contacto'];
+    var itemspage = ['.item-page','item-contacto'];
     var alturaindex = altura.top - 110;
     var alturatwitter = altura.top - 310;
     var alturalivevid = altura.top - 130;
-    $(itemspage[0]).css('height',alturaindex + 'px');
-    $(itemspage[1]).css('height',alturatwitter  + 'px');
+    // $(itemspage[0]).css('height',alturaindex + 'px');
+    // $(itemspage[1]).css('height',alturatwitter  + 'px');
     $('.contenidoRadio').animate({
         top: altura.top -170
     },550);
