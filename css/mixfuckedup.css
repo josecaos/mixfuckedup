@@ -6,6 +6,12 @@
         font-family: 'Jersey 10', Helvetica, Sans !important;
     }
 
+    /* el !important de arriba tapaba la fuente de Font Awesome en los <i class="fa ...">,
+       por eso los iconos no se veian aunque la fuente cargaba bien */
+    .fa {
+        font-family: 'FontAwesome' !important;
+    }
+
     /*fuentesh*/
     @import url('https://fonts.googleapis.com/css2?family=Jersey+10');
 
