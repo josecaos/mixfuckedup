@@ -1,6 +1,12 @@
 <?php
 //proyecto ID
-$titulo=["Mixfuckedup","josecaos","LiveCodeNetEnsamble", "Tiniebla"];
+$titulo=[
+	0 => "Mixfuckedup",
+	1 => "josecaos",
+	2 => "LiveCodeNetEnsamble",
+	3 => "Tiniebla",
+	6 => "RipRapRape",
+];
 ?>
 <!DOCTYPE html>
 <head>

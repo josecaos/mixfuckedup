@@ -76,6 +76,14 @@ var array5 = proyecto[8].split("");
             //hablaProyecto(proyecto[0]);
         },10000);
     }
+    if(secc === 6){
+        var ripraprapetitulo = proyecto[3].split("").shuffle();
+        cont.innerHTML = ripraprapetitulo.join("");
+        hablaProyecto(ripraprapetitulo.join(""));
+        setTimeout(function() {
+            cont.innerHTML = proyecto[3];
+        },5000);
+    }
   }
 //cambio de titulo
 function mixfuckedup () {
@@ -108,9 +116,12 @@ function webLab () {
     //document.getElementById('tituloheader').style.right = 'auto';
     //hablaProyecto(proyecto[5] + "web sound research");
   }
+function ripRapRape () {
+    document.getElementById('tituloprincipal').innerHTML = proyecto[3];
+  }
 //selecciona titulo correcto
 function selTitulo() {
-    if(secc === 0 || secc === null || secc > 5) {
+    if(secc === 0 || secc === null || secc > 6) {
         mixfuckedup();
     }
     if(secc === 1) {
@@ -128,6 +139,9 @@ function selTitulo() {
     if(secc === 5) {
         webLab();
     }
+    if(secc === 6) {
+        ripRapRape();
+    }
 }
 //player options
 ////// falta
@@ -135,7 +149,7 @@ function selTitulo() {
 //sirve para accionar cosas propias de cada pagina
 function content_select() {
     var tw,ply,ind,pics;
-    if(secc === 0 || secc === null || secc > 5) {//esta var se declara en el doc php raiz
+    if(secc === 0 || secc === null || secc > 6) {//esta var se declara en el doc php raiz
         var contenido = 'html/mixfuckedup_info.html';
         //
         $('#mixfuckedup').css({'background':'#0ACD00'});
@@ -205,6 +219,10 @@ function content_select() {
       $('#webLab').css({'background':'#0ACD00'});
       $('#webLab a').css({'color':'#313131'});
         webLab();
+    }
+    if(secc === 6) {//RipRapRape
+      $('#RipRapRape').css({'background':'#0ACD00'});
+      $('#RipRapRape a').css({'color':'#313131'});
     }
 }
 //contrae las ventanas

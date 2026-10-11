@@ -17,7 +17,7 @@
           <a class="linkProyectos" href="https://menoshumanos.com" target="_blank">Menos Humanos</a>
         </li>
         <li id="RipRapRape">
-          <a class="linkProyectos" href="https://ripraprape.qzz.io" target="_blank">RipRapRape</a>
+          <a class="linkProyectos" href="ripraprape.php">RipRapRape</a>
         </li>
         <li id="Mitote">
           <a class="linkProyectos" href="https://www.instagram.com/mitote_band_mx/" target="_blank">Mitote</a>
