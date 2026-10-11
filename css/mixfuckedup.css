@@ -212,7 +212,7 @@
         font-size: 2.15rem;
         height: auto;
         width: auto;
-        padding: 0.25rem;
+        padding: 1rem;
         text-align: center;
         text-decoration: none;
         user-select: none;
@@ -404,6 +404,32 @@
 
     p {
         line-height: 1.333em;
+    }
+
+    .linkRedesProyecto {
+        list-style: none;
+        margin: 0.5rem 0;
+        padding: 0;
+        text-align: center;
+    }
+
+    .linkRedesProyecto li {
+        display: inline-block;
+        padding: 5px 8px;
+    }
+
+    .linkRedesProyecto li a {
+        color: whitesmoke;
+        text-decoration: none;
+    }
+
+    .linkRedesProyecto li i {
+        color: whitesmoke;
+    }
+
+    .linkRedesProyecto li a:hover,
+    .linkRedesProyecto li i:hover {
+        color: lightgray;
     }
 
     /*termina contenedores*/

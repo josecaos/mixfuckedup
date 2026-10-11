@@ -20,7 +20,18 @@ require "mixheader.php";
     <canvas id="lienzo" onclick="rompe()"></canvas>
     <div id="index" class="fondo">
       <div class="container contenedorSeccion">
-        <?php require 'ventanas/ripraprape.php'; ?>
+        <?php
+        $proyectoNombre = 'RipRapRape';
+        $proyectoBio = '[PLACEHOLDER] Texto corto sobre RipRapRape. Reemplazar con la biografía/descripción real del proyecto.';
+        $proyectoLinks = [
+          ['icon' => 'fa-globe', 'label' => 'Sitio', 'url' => 'https://ripraprape.qzz.io'],
+          ['icon' => 'fa-music', 'label' => 'Bandcamp [PLACEHOLDER]', 'url' => '#'],
+          ['icon' => 'fa-spotify', 'label' => 'Spotify [PLACEHOLDER]', 'url' => '#'],
+          ['icon' => 'fa-youtube-play', 'label' => 'YouTube [PLACEHOLDER]', 'url' => '#'],
+        ];
+        $proyectoMusica = '<p><em>[PLACEHOLDER] Próximamente: pistas o reproductor embebido.</em></p>';
+        require 'ventanas/proyecto.php';
+        ?>
       </div>
     </div>
   </div>
