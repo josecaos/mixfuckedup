@@ -340,6 +340,10 @@
         width: 100%;
         cursor: move;
         z-index: 2;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
     }
 
     .contenidoTop strong {
