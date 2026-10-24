@@ -13,23 +13,23 @@
         <li id="tiniebla">
           <a class="linkProyectos" href="https://www.facebook.com/tinieblaband/" target="_blank">Tiniebla</a>
         </li>
-        <li id="Menos Humanos">
-          <a class="linkProyectos" href="https://menoshumanos.com" target="_blank">Menos Humanos</a>
+        <li id="MenosHumanos">
+          <a class="linkProyectos" href="menoshumanos.php">Menos Humanos</a>
         </li>
         <li id="RipRapRape">
           <a class="linkProyectos" href="ripraprape.php">RipRapRape</a>
         </li>
         <li id="Mitote">
-          <a class="linkProyectos" href="https://www.instagram.com/mitote_band_mx/" target="_blank">Mitote</a>
+          <a class="linkProyectos" href="mitote.php">Mitote</a>
         </li>
         <li id="Morir">
-          <a class="linkProyectos" href="https://www.instagram.com/morir_mx/" target="_blank">Morir</a>
+          <a class="linkProyectos" href="morir.php">Morir</a>
         </li>
         <li id="Devilmente">
-          <a class="linkProyectos" href="https://www.devilmente.com" target="_blank">Devilmente</a>
+          <a class="linkProyectos" href="devilmente.php">Devilmente</a>
         </li>
         <li id="Egohisteria">
-          <a class="linkProyectos" href="#" target="_blank">Egohisteria</a>
+          <a class="linkProyectos" href="egohisteria.php">Egohisteria</a>
         </li>
         <!-- <li id="liveCodeNetEnsamble">
         <a class="linkProyectos" href="https://livecodenetensamble.wordpress.com" target="_blank">LCNE</a>

@@ -84,6 +84,46 @@ var array5 = proyecto[8].split("");
             cont.innerHTML = proyecto[3];
         },5000);
     }
+    if(secc === 7){
+        var menoshumanostitulo = proyecto[4].split("").shuffle();
+        cont.innerHTML = menoshumanostitulo.join("");
+        hablaProyecto(menoshumanostitulo.join(""));
+        setTimeout(function() {
+            cont.innerHTML = proyecto[4];
+        },5000);
+    }
+    if(secc === 8){
+        var mitotetitulo = proyecto[5].split("").shuffle();
+        cont.innerHTML = mitotetitulo.join("");
+        hablaProyecto(mitotetitulo.join(""));
+        setTimeout(function() {
+            cont.innerHTML = proyecto[5];
+        },5000);
+    }
+    if(secc === 9){
+        var morirtitulo = proyecto[6].split("").shuffle();
+        cont.innerHTML = morirtitulo.join("");
+        hablaProyecto(morirtitulo.join(""));
+        setTimeout(function() {
+            cont.innerHTML = proyecto[6];
+        },5000);
+    }
+    if(secc === 10){
+        var devilmentetitulo = proyecto[7].split("").shuffle();
+        cont.innerHTML = devilmentetitulo.join("");
+        hablaProyecto(devilmentetitulo.join(""));
+        setTimeout(function() {
+            cont.innerHTML = proyecto[7];
+        },5000);
+    }
+    if(secc === 11){
+        var egohisteriatitulo = proyecto[8].split("").shuffle();
+        cont.innerHTML = egohisteriatitulo.join("");
+        hablaProyecto(egohisteriatitulo.join(""));
+        setTimeout(function() {
+            cont.innerHTML = proyecto[8];
+        },5000);
+    }
   }
 //cambio de titulo
 function mixfuckedup () {
@@ -119,9 +159,24 @@ function webLab () {
 function ripRapRape () {
     document.getElementById('tituloprincipal').innerHTML = proyecto[3];
   }
+function menosHumanos () {
+    document.getElementById('tituloprincipal').innerHTML = proyecto[4];
+  }
+function mitote () {
+    document.getElementById('tituloprincipal').innerHTML = proyecto[5];
+  }
+function morir () {
+    document.getElementById('tituloprincipal').innerHTML = proyecto[6];
+  }
+function devilmente () {
+    document.getElementById('tituloprincipal').innerHTML = proyecto[7];
+  }
+function egohisteria () {
+    document.getElementById('tituloprincipal').innerHTML = proyecto[8];
+  }
 //selecciona titulo correcto
 function selTitulo() {
-    if(secc === 0 || secc === null || secc > 6) {
+    if(secc === 0 || secc === null || secc > 11) {
         mixfuckedup();
     }
     if(secc === 1) {
@@ -142,6 +197,21 @@ function selTitulo() {
     if(secc === 6) {
         ripRapRape();
     }
+    if(secc === 7) {
+        menosHumanos();
+    }
+    if(secc === 8) {
+        mitote();
+    }
+    if(secc === 9) {
+        morir();
+    }
+    if(secc === 10) {
+        devilmente();
+    }
+    if(secc === 11) {
+        egohisteria();
+    }
 }
 //player options
 ////// falta
@@ -149,7 +219,7 @@ function selTitulo() {
 //sirve para accionar cosas propias de cada pagina
 function content_select() {
     var tw,ply,ind,pics;
-    if(secc === 0 || secc === null || secc > 6) {//esta var se declara en el doc php raiz
+    if(secc === 0 || secc === null || secc > 11) {//esta var se declara en el doc php raiz
         var contenido = 'html/mixfuckedup_info.html';
         //
         $('#mixfuckedup').css({'background':'#0ACD00'});
@@ -223,6 +293,26 @@ function content_select() {
     if(secc === 6) {//RipRapRape
       $('#RipRapRape').css({'background':'#0ACD00'});
       $('#RipRapRape a').css({'color':'#313131'});
+    }
+    if(secc === 7) {//Menos Humanos
+      $('#MenosHumanos').css({'background':'#0ACD00'});
+      $('#MenosHumanos a').css({'color':'#313131'});
+    }
+    if(secc === 8) {//Mitote
+      $('#Mitote').css({'background':'#0ACD00'});
+      $('#Mitote a').css({'color':'#313131'});
+    }
+    if(secc === 9) {//Morir
+      $('#Morir').css({'background':'#0ACD00'});
+      $('#Morir a').css({'color':'#313131'});
+    }
+    if(secc === 10) {//Devilmente
+      $('#Devilmente').css({'background':'#0ACD00'});
+      $('#Devilmente a').css({'color':'#313131'});
+    }
+    if(secc === 11) {//Egohisteria
+      $('#Egohisteria').css({'background':'#0ACD00'});
+      $('#Egohisteria a').css({'color':'#313131'});
     }
 }
 //contrae las ventanas

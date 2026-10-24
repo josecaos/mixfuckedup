@@ -6,6 +6,11 @@ $titulo=[
 	2 => "LiveCodeNetEnsamble",
 	3 => "Tiniebla",
 	6 => "RipRapRape",
+	7 => "Menos Humanos",
+	8 => "Mitote",
+	9 => "Morir",
+	10 => "Devilmente",
+	11 => "Egohisteria",
 ];
 ?>
 <!DOCTYPE html>

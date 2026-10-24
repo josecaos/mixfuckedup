@@ -4,7 +4,7 @@ $bg = array('1.png');
 $i = rand(0, count($bg)-1);
 $selectedBg = "$bg[$i]";
 //proyecto ID
-$secc=6;//mxfkdp=0;josecaos=1;lcne=2;tiniebla=3;audiolab=4;weblab=5;ripraprape=6;
+$secc=6;//mxfkdp=0;josecaos=1;lcne=2;tiniebla=3;audiolab=4;weblab=5;ripraprape=6;menoshumanos=7;mitote=8;morir=9;devilmente=10;egohisteria=11;
 require "mixheader.php";
 ?>
 <style type="text/css">
