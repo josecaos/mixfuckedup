@@ -4,9 +4,9 @@
     <div class="container">
       <ul class="menuProyectos">
 
-        <!-- <li id="mixfuckedup">
+        <li id="mixfuckedup">
         <a class="linkProyectos" href="index.php">Mixfuckedup</a>
-      </li> -->
+      </li>
         <li id="josecaos">
           <a class="linkProyectos" href="http://josecaos.xyz" target="_blank">josecaos</a>
         </li>
